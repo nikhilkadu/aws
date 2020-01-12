@@ -1,0 +1,20 @@
+[
+    {
+        "emp_id":"15",
+        "Name":"Rahul",
+        "Age":31,
+        "Location":["USA"]
+    },
+    {
+        "emp_id":"16",
+        "Name":"Mayur",
+        "Age":31,
+        "Location":["Germany"]
+    },
+    {
+        "emp_id":"17",
+        "Name":"Aishwarya",
+        "Age":31,
+        "Location":["Holland"]
+    }
+]
