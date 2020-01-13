@@ -1,11 +1,8 @@
 import json
 import boto3
-import csv
-import uuid
 
 s3_client = boto3.client('s3')
 dynamodb = boto3.resource('dynamodb')
-
 
 def lambda_handler(event, context):
     bucket = event['Records'][0]['s3']['bucket']['name']
