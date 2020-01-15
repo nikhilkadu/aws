@@ -26,7 +26,7 @@ Steps
      * Finish creating the role with the default settings.
 3. Open S3 service and create a bucket
    * Create Bucket
-   * Set bucket name = **nikhil01012020**
+   * Set bucket name = **myname01012020**
    * Set Region = N. Virginia
    * Next
    * Next
@@ -42,7 +42,7 @@ Steps
    * Click on the lambda function
    * Configuration Tab > Designer section > Click Add Trigger
      * Set to S3
-     * Bucket = nikhil01012020
+     * Bucket = myname01012020
      * Event Type = All objects create events
      * Enable Trigger
      * Add
@@ -61,7 +61,7 @@ Steps
        *  Primary Key = id (String) 
           * You can use EquipmentType but make necessary changes to the code
 7. Open S3 service to trigger the lambda function
-   * Click on the bucket nikhil01012020
+   * Click on the bucket myname01012020
    * Click Upload
    * Add employees.json file
    * Upload
